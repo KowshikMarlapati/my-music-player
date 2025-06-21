@@ -9,7 +9,7 @@ Supports Play, Pause, Previous, Next, Loop, Seek and shows real-time progress wi
 
 ## 🌐 Live Demo
 
-👉 **[View Live App on Netlify](https://your-netlify-app-link.netlify.app/)**
+👉 **[View Live App on Netlify](https://react-my-music-player.netlify.app/)**
 ---
 
 ## 🚀 Features
