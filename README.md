@@ -10,9 +10,6 @@ Supports Play, Pause, Previous, Next, Loop, Seek and shows real-time progress wi
 ## 🌐 Live Demo
 
 👉 **[View Live App on Netlify](https://your-netlify-app-link.netlify.app/)**
-
-> Replace with your actual Netlify URL after deployment.
-
 ---
 
 ## 🚀 Features
@@ -39,14 +36,16 @@ Supports Play, Pause, Previous, Next, Loop, Seek and shows real-time progress wi
 
 ## 📂 Folder Structure
 
+```bash
 music-player/
 ├── public/
-│ ├── songs/ (your audio files)
-│ └── covers/ (album art images)
+│   ├── songs/        # your audio files
+│   └── covers/       # album art images
 ├── src/
-│ ├── App.jsx
-│ └── App.css
+│   ├── App.jsx
+│   └── App.css
 └── package.json
+
 
 
 ---
