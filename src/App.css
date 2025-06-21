@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #fbc2eb 50%, #a6c1ee 50%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.album img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.album h2 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.progress-container {
+  margin: 20px 0;
+  width: 80%;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 5px;
+  border-radius: 3px;
+  background: #ddd;
+  outline: none;
+  transition: background 0.3s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #333;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.controls button {
+  border: 2px solid #333;
+  background: transparent;
+  color: #333;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls .active {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
